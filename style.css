@@ -1,0 +1,74 @@
+*{
+	padding: 0;
+	margin: 0;
+	outline:0;
+	box-sizing: border-box;
+	
+}
+.container{
+	height: 100vh;
+	width: 100%;
+	background: url(bg2.jpg);
+	background-position: center;
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align:center;
+	color:#333;
+
+}
+
+.container .txt{
+	
+	color: #fff;
+	font-size: 70px;
+	margin-bottom: 25px;
+	
+}
+
+.container .txt h1{
+	font-family: 'Brush Script MT', cursive;
+	font-weight: 700;
+	letter-spacing: 4px;
+	color: #03017d;
+	font-size: 100px;
+}
+
+.container .txt p{
+	color: #0c0202;
+	font-size: 18px;
+	width: 60%;
+	margin: 50px auto 70px;
+	font-family: cursive;
+
+}
+
+.container .txt .yes-btn{
+	background-color: #ff778e;
+	color: #03017d;
+	border: 1px solid #fff;
+	border-radius: 5px;
+	padding: 18px 50px;
+	font-weight: 700;
+	font-size: 20px;
+	text-decoration: none;
+	
+}
+
+.container .txt .no-btn {
+	background-color: #ff778e;
+	color: #03017d;
+	border: 1px solid #fff;
+	border-radius: 5px;
+	padding: 18px 50px;
+	font-weight: 700;
+	font-size: 20px;
+	text-decoration: none;
+}
+
+.container .txt .yes-btn:hover,
+.container .txt .no-btn:hover {
+	background-color: #fff;
+	color: red ;
+}

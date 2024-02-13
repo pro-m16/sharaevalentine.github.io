@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Yes mood</title>
+	<link rel="stylesheet" href="yes.css">
+	<script>
+		audioElement.play();
+		if (navigator.getAutoplayPolicy("mediaelement") === "allowed") {
+				// The video element will autoplay with audio.
+			} else if (navigator.getAutoplayPolicy("mediaelement") === "allowed-muted") {
+				// Mute audio on video
+				video.muted = true;
+			} else if (navigator.getAutoplayPolicy("mediaelement") === "disallowed") {
+				// Set a default placeholder image.
+				video.poster = "http://example.com/poster_image_url";
+			}
+
+
+	</script>
+</head>
+<body>
+
+	<div class="container">
+		<div class="box">
+			<h2>I L<img src="kisspng-love-heart-love-heart-romance-clip-art-picture-of-red-heart-5aaeb718420cb8.8640685015213995762706.png" alt="">ve YOU </h2>
+			<h3>Raccoon</h3>
+			<a class="button" href="index.html">Home</a>
+
+		</div>
+
+		
+	</div>
+	<div class="carousel">
+		<div class="carousel__item">
+			<h1>Why I love you</h1>
+			<img src="img2.jpg" alt="placeholder">
+			<div class="text">
+				<p>I found love in you And no other love will do <br>
+					 Every moment that you smile <br>
+					Chases all of the pain away <br>
+					Forever and a while <br>
+					In my heart is where you'll stay
+				</p>
+			</div>
+			
+		</div>
+		<div class="carousel__item">
+			<h1>What i wish for us</h1>
+			<img src="img1.jpg" alt="placeholder">
+			<div class="text">
+				<p>I hope that i get the opportunity to grow old <br>
+					With you, so that every  awaking <br>
+					Moment i can see you smile <br>
+					hear you laugh <br>
+					Endure your miserableness <br>
+					And  know that we’ll be together forever.</p>
+	
+			</div>
+		</div>
+		<div class="carousel__item">
+			<h1>Click Full Screen</h1>
+			<div class="vid">
+				<video controls loop width="1000px" height="700px" type="video/mp4"> 
+					<source src="vid.mp4">
+					Sorry Your browser doesnt support this Video
+				</video>
+				<i class="fa fa-play-circle play"></i>
+			</div>
+			
+		</div>
+	</div>
+	<script src="main.js"></script>
+</body>
+
+</html>
